@@ -163,13 +163,28 @@
 
 ---
 
+## Section 6: Presentation
+
+### [presentation_structure.md](presentation_structure.md)
+- Presentation Flow Overview (45 min + 15 min Q&A)
+- Audience Analysis
+- Opening (5 min): Context, Problem, Opportunity
+- Discovery (8 min): Field Signal, Full-Funnel Gap, Positioning
+- Framework (8 min): Hypotheses, Traceability, Validation Timeline
+- Plan (15 min): Phase 1-2-3 Details, Metrics Pyramid
+- Close (9 min): Success Criteria, Risks, The Ask
+- Backup Slides (6 topics)
+- Anticipated Questions by Audience
+
+---
+
 ## Quick Reference Tables
 
 ### Documents by Owner
 
 | Owner | Documents |
 |-------|-----------|
-| **Adoption Architect** | All (author) |
+| **Adoption Architect** | All (author), Presentation Structure |
 | **Field Ops** | ICP and Targeting, Field Incentives, Signal Capture |
 | **Enablement** | Sales Plays, Field Enablement |
 | **Marketing** | Positioning and Messaging |
@@ -196,7 +211,7 @@
 | W1-2 | ICP and Targeting, Field Enablement |
 | W3-4 | Positioning, Partner Ecosystem |
 | W5-8 | Sales Plays, Signal Capture |
-| W9-12 | Action Plan, Traceability |
+| W9-12 | Action Plan, Traceability, **Presentation Structure** |
 
 ---
 
@@ -206,6 +221,7 @@
 databricks-apps-adoption/
 ├── README.md                           # Blog-style entry point
 ├── 00_index.md                         # This file - detailed navigation
+├── presentation_structure.md           # 45-min panel presentation guide
 ├── _config.yml                         # Jekyll config (Architect theme)
 ├── _layouts/
 │   └── default.html                    # Mermaid support

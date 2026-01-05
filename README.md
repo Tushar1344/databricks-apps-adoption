@@ -40,11 +40,16 @@ flowchart TB
         E2[Operating Cadence]
     end
     
+    subgraph Presentation["6. PRESENTATION"]
+        P1[Slide Deck Structure]
+    end
+    
     Foundation --> Field
     Foundation --> Product
     Field --> Framework
     Product --> Framework
     Framework --> Execution
+    Execution --> Presentation
 ```
 
 ---
@@ -93,6 +98,12 @@ flowchart TB
 | [Action Plan](40_execution/01_action_plan.md) | 3-6-12 month roadmap with deliverables |
 | [Operating Cadence](40_execution/02_operating_cadence.md) | Meetings, rhythms, communication |
 
+### 6. Presentation
+
+| Chapter | Description |
+|---------|-------------|
+| [Presentation Structure](presentation_structure.md) | 45-min panel deck with speaker notes and Q&A backup |
+
 ---
 
 ## The Mission
@@ -135,6 +146,7 @@ flowchart TB
    - **Product issues?** → [20_product/](20_product/)
 4. **Execute from [Action Plan](40_execution/01_action_plan.md)** week by week
 5. **Track validation in [Traceability](30_framework/02_traceability_matrix.md)** at decision points
+6. **Present with [Presentation Structure](presentation_structure.md)** for exec and peer reviews
 
 ---
 
