@@ -1,6 +1,6 @@
 # Databricks Apps Adoption Playbook
 
-A structured playbook for driving adoption of Databricks Apps, organized by **Field Gaps** vs **Product Gaps**.
+**What is this?** A structured playbook for driving adoption of Databricks Apps, organized by **Field Gaps** vs **Product Gaps**.
 
 ---
 
