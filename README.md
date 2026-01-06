@@ -29,7 +29,7 @@
 
 ---
 
-## Structure
+## Wiki Structure
 
 ```mermaid
 flowchart TB
