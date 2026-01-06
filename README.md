@@ -44,12 +44,18 @@ flowchart TB
         P1[Slide Deck Structure]
     end
     
+    subgraph ParkingLot["7. PARKING LOT"]
+        PL1[Deliverables Gap]
+        PL2[Metrics Framework]
+    end
+    
     Foundation --> Field
     Foundation --> Product
     Field --> Framework
     Product --> Framework
     Framework --> Execution
     Execution --> Presentation
+    Execution -.-> ParkingLot
 ```
 
 ---
@@ -104,6 +110,15 @@ flowchart TB
 |---------|-------------|
 | [Presentation Structure](presentation_structure.md) | 45-min panel deck with speaker notes and Q&A backup |
 
+### 7. Parking Lot
+
+*Future work and integration items awaiting prioritization.*
+
+| Item | Description |
+|------|-------------|
+| [Deliverables Gap Analysis](parking_lot/deliverables.md) | Missing deliverables mapped to field/product gaps and phases |
+| [Metrics Framework](parking_lot/metrics.md) | Consolidated metrics, data sources, and dashboard specs |
+
 ---
 
 ## The Mission
@@ -147,6 +162,7 @@ flowchart TB
 4. **Execute from [Action Plan](40_execution/01_action_plan.md)** week by week
 5. **Track validation in [Traceability](30_framework/02_traceability_matrix.md)** at decision points
 6. **Present with [Presentation Structure](presentation_structure.md)** for exec and peer reviews
+7. **Review [Parking Lot](parking_lot/)** for future work and integration items
 
 ---
 
