@@ -4,6 +4,17 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 
 ---
 
+## Audience
+
+| Role | What You'll Find |
+|------|------------------|
+| **GTM Leaders** | Strategic wins, attach rate metrics, pipeline health, exec readouts |
+| **GTM ICs (FE/SA)** | Sales plays, objection handling, guided selling triggers, enablement |
+| **Product Managers** | Field signal, loss analysis, feature adoption, friction summary |
+| **Adoption Architects** | Hypotheses, traceability, action plan, operating cadence, deliverables |
+
+---
+
 ## How to Use This Playbook
 
 1. **Start with [Mission](01_foundation/01_mission_and_role.md)** to understand the role
