@@ -82,8 +82,32 @@ layout: none
         
         mermaid.initialize({ 
           startOnLoad: true, 
-          theme: 'neutral',
-          flowchart: { useMaxWidth: true, htmlLabels: true }
+          theme: 'base',
+          themeVariables: {
+            // Primary colors: Yellow, Blue, Black
+            primaryColor: '#FFF3CD',           // Light yellow
+            primaryTextColor: '#1a1a1a',       // Near black
+            primaryBorderColor: '#FFD43B',     // Golden yellow
+            secondaryColor: '#E3F2FD',         // Light blue
+            secondaryTextColor: '#1a1a1a',
+            secondaryBorderColor: '#2196F3',   // Blue
+            tertiaryColor: '#FFFDE7',          // Pale yellow
+            tertiaryTextColor: '#1a1a1a',
+            tertiaryBorderColor: '#FFC107',    // Amber
+            lineColor: '#1565C0',              // Dark blue
+            textColor: '#1a1a1a',
+            mainBkg: '#FFF8E1',                // Warm yellow background
+            nodeBorder: '#1565C0',             // Dark blue borders
+            clusterBkg: '#E3F2FD',             // Light blue for clusters
+            clusterBorder: '#1976D2',          // Blue border
+            titleColor: '#0D47A1',             // Dark blue for titles
+            edgeLabelBackground: '#FFFFFF'
+          },
+          flowchart: { 
+            useMaxWidth: true, 
+            htmlLabels: true,
+            curve: 'basis'
+          }
         });
         
         await mermaid.run();
