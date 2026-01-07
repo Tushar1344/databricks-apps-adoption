@@ -50,6 +50,23 @@ layout: none
         position: absolute;
         visibility: hidden;
       }
+      /* Header with QR code */
+      .header-flex {
+        display: flex !important;
+        align-items: center !important;
+        gap: 20px;
+      }
+      .header-qr {
+        width: 80px;
+        height: 80px;
+        flex-shrink: 0;
+        background: white;
+        padding: 4px;
+        border-radius: 8px;
+      }
+      .header-text {
+        flex: 1;
+      }
     </style>
     <!-- Mermaid JS for diagram rendering -->
     <script type="module">
@@ -147,11 +164,14 @@ layout: none
   </head>
   <body>
     <header>
-      <div class="inner">
-        <a href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+      <div class="inner header-flex">
+        <img src="{{ '/assets/images/qr-playbook.png' | relative_url }}" alt="QR Code" class="header-qr">
+        <div class="header-text">
+          <a href="{{ '/' | relative_url }}">
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          </a>
+          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        </div>
       </div>
     </header>
 
