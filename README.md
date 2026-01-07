@@ -193,7 +193,7 @@ flowchart TB
 ### Author
 
 **Tushar Madan**  
-Adoption Architect, Databricks
+Aspiring Adoption Architect, Databricks
 
 ---
 
@@ -225,7 +225,7 @@ Created the Practice Lead motion within RCT—processes that outlast people.
 **3. Passionate About Apps as GTM Centerpiece** 🚀  
 - [Internal Memo: Lead with Data Products](https://docs.google.com/document/d/1mGWueYX0uiJDKBE5av_4wdRFNuokSrT7oNbSxd-bbcE/edit?tab=t.0#heading=h.c7helxcinaeo)
 - [Peet's Coffee: App-Based GTM Win](https://drive.google.com/file/d/1EclOdU6vePXFhT_kGumd6E50vlvItGSQ/view?usp=sharing)
-- Partnered with App-Focused SIs: [Viveka.ai (Suji Nair)](https://www.linkedin.com/in/sujinair/) — reported to Shanku
+- Partnered with App-Focused SIs: [Viveka.ai (Sujit Nair)](https://www.linkedin.com/in/sujinair/) — reported to Shanku
 - [Month of Apps Launch (RCT)](https://month-of-apps-kickoff.netlify.app/)
 - [Papa Johns Demo](https://drive.google.com/file/d/1NDO22SGoeRvKShfhlUiWT_1vdjDXexk7/view?usp=sharing) — inspired by Domino's Voice of Pizza win
 
