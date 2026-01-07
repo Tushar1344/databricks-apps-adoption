@@ -4,7 +4,7 @@
 <div class="tab-buttons">
   <button class="tab-btn active" data-tab="tab-start">Start Here</button>
   <button class="tab-btn" data-tab="tab-nav">Quick Nav</button>
-  <button class="tab-btn" data-tab="tab-about">About</button>
+  <button class="tab-btn" data-tab="tab-about">About Me</button>
 </div>
 
 <div id="tab-start" class="tab-content active" markdown="1">
@@ -188,12 +188,22 @@ flowchart TB
 
 <div id="tab-about" class="tab-content" markdown="1">
 
-## About This Playbook
+## About Me
 
 ### Author
 
 **Tushar Madan**  
 Adoption Architect, Databricks
+
+---
+
+### If you're wondering what avianna.ai is...
+
+It's my daughter's first name: **Avianna Ishari Madan** (AI Madan) 💛
+
+<img src="assets/images/avianna.jpg" alt="Avianna Ishari Madan" style="max-width: 400px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+
+---
 
 ### Version
 
