@@ -201,8 +201,6 @@ Adoption Architect, Databricks
 
 It's my daughter's first name: **Avianna Ishari Madan** (AI Madan) 💛
 
-<img src="assets/images/avianna.jpg" alt="Avianna Ishari Madan" style="max-width: 400px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-
 ---
 
 ### Version
