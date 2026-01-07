@@ -21,11 +21,11 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 
 ## How to Use This Playbook
 
-### The Mission
+**1. The [Mission](01_foundation/01_mission_and_role.md)**
 
 > Help BU+1s hit product targets by turning customer adoption friction into prioritized cross-functional action and scalable GTM product plays.
 
-### North Star Metrics
+**2. North Star [Metrics](parking_lot/metrics.md)**
 
 | Phase | Metric | Customer Focus |
 |-------|--------|----------------|
@@ -33,7 +33,7 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 | 6-9 months | Attach Rates | Both |
 | 12+ months | Coverage | Quantity motion (Digital Native) |
 
-### Key Hypotheses
+**3. Key [Hypotheses](30_framework/01_hypotheses_and_beliefs.md)**
 
 | ID | Belief | Decision Point |
 |----|--------|----------------|
@@ -46,17 +46,17 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 | H7 | Net-New Focus Is Right | Month 6 |
 | H8 | Quality vs Quantity Matters | Month 6 |
 
-### Getting Started
-
-1. **Start with [Mission](01_foundation/01_mission_and_role.md)** to understand our role
-2. **Read [Hypotheses](30_framework/01_hypotheses_and_beliefs.md)** to see core beliefs
-3. **Navigate by owner:**
+**4. Navigate by owner:**
    - **Field issues?** → [10_field/](10_field/)
    - **Product issues?** → [20_product/](20_product/)
-4. **Execute from [Action Plan](40_execution/01_action_plan.md)** week by week
-5. **Track validation in [Traceability](30_framework/02_traceability_matrix.md)** at decision points
-6. **Present with [Presentation Structure](presentation_structure.md)** for exec and peer reviews
-7. **Review [Parking Lot](parking_lot/)** for future work and integration items
+
+**5. Execute from [Action Plan](40_execution/01_action_plan.md)** week by week
+
+**6. Track validation in [Traceability](30_framework/02_traceability_matrix.md)** at decision points
+
+**7. Present with [Presentation Structure](presentation_structure.md)** for exec and peer reviews
+
+**8. Review [Parking Lot](parking_lot/)** for future work and integration items
 
 ---
 
