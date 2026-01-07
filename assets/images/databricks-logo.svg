@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="white">
+  <!-- Databricks logo - stylized spark/diamond -->
+  <path d="M50 5 L85 30 L85 70 L50 95 L15 70 L15 30 Z" fill="none" stroke="white" stroke-width="3"/>
+  <path d="M50 20 L70 35 L70 65 L50 80 L30 65 L30 35 Z" fill="white" opacity="0.9"/>
+  <path d="M50 35 L60 42.5 L60 57.5 L50 65 L40 57.5 L40 42.5 Z" fill="rgba(255,255,255,0.5)"/>
+</svg>
+

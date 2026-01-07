@@ -42,11 +42,14 @@ layout: none
   </head>
   <body>
     <header>
-      <div class="inner">
-        <a href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+      <div class="inner header-flex">
+        <img src="{{ '/assets/images/databricks-logo.svg' | relative_url }}" alt="Databricks" class="header-logo">
+        <div class="header-text">
+          <a href="{{ '/' | relative_url }}">
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          </a>
+          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        </div>
       </div>
     </header>
 
