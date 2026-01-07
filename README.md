@@ -1,6 +1,13 @@
 # Databricks Apps Adoption Playbook
 
----
+<div class="tab-container">
+<div class="tab-buttons">
+  <button class="tab-btn active" data-tab="tab-start">Start Here</button>
+  <button class="tab-btn" data-tab="tab-nav">Quick Nav</button>
+  <button class="tab-btn" data-tab="tab-about">About</button>
+</div>
+
+<div id="tab-start" class="tab-content active" markdown="1">
 
 ## What is this?
 
@@ -58,7 +65,9 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 
 **8. Review [Parking Lot](parking_lot/)** for future work and integration items
 
----
+</div>
+
+<div id="tab-nav" class="tab-content" markdown="1">
 
 ## Quick Navigation
 
@@ -119,9 +128,18 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 | [Deliverables Gap Analysis](parking_lot/deliverables.md) | Missing deliverables mapped to field/product gaps and phases |
 | [Metrics Framework](parking_lot/metrics.md) | Consolidated metrics, data sources, and dashboard specs |
 
----
+</div>
 
-## Wiki Structure
+<div id="tab-about" class="tab-content" markdown="1">
+
+## About This Playbook
+
+### Author
+
+**Tushar Madan**  
+Adoption Architect, Databricks
+
+### Wiki Structure
 
 ```mermaid
 flowchart TB
@@ -175,7 +193,9 @@ flowchart TB
     Execution -.-> ParkingLot
 ```
 
----
+### Version
 
 *Last Updated: January 2026*
 
+</div>
+</div>

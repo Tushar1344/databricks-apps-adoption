@@ -6,3 +6,8 @@ plugins:
 baseurl: ""
 url: "https://playbook.avianna.ai"
 
+# Enable markdown inside HTML blocks
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+

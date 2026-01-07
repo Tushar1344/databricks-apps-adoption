@@ -8,6 +8,43 @@ layout: none
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      /* Tab styles */
+      .tab-container {
+        margin-bottom: 20px;
+      }
+      .tab-buttons {
+        display: flex;
+        gap: 0;
+        border-bottom: 2px solid #2e7bcf;
+        margin-bottom: 20px;
+      }
+      .tab-btn {
+        padding: 12px 24px;
+        background: #e7e7e7;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        color: #333;
+        border-radius: 8px 8px 0 0;
+        margin-right: 4px;
+        transition: all 0.2s ease;
+      }
+      .tab-btn:hover {
+        background: #d0d0d0;
+      }
+      .tab-btn.active {
+        background: #2e7bcf;
+        color: white;
+      }
+      .tab-content {
+        display: none;
+      }
+      .tab-content.active {
+        display: block;
+      }
+    </style>
     <!-- Mermaid JS for diagram rendering -->
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
@@ -32,6 +69,30 @@ layout: none
           flowchart: { useMaxWidth: true, htmlLabels: true }
         });
         mermaid.run();
+      });
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+        
+        tabBtns.forEach(btn => {
+          btn.addEventListener('click', () => {
+            const target = btn.dataset.tab;
+            
+            // Update buttons
+            tabBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            
+            // Update content
+            tabContents.forEach(content => {
+              content.classList.remove('active');
+              if (content.id === target) {
+                content.classList.add('active');
+              }
+            });
+          });
+        });
       });
     </script>
   </head>
