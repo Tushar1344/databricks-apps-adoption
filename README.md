@@ -127,6 +127,7 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 |------|-------------|
 | [Deliverables Gap Analysis](parking_lot/deliverables.md) | Missing deliverables mapped to field/product gaps and phases |
 | [Metrics Framework](parking_lot/metrics.md) | Consolidated metrics, data sources, and dashboard specs |
+| [Anticipated Objections](parking_lot/objections.md) | Interview prep with sample answers and gap analysis |
 
 ---
 
