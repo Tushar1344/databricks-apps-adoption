@@ -23,7 +23,7 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 
 **1. The [Mission](01_foundation/01_mission_and_role.md)**
 
-> Help BU+1s hit product targets by turning customer adoption friction into prioritized cross-functional action and scalable GTM product plays.
+> Drive deliberate, field-led adoption of Databricks Apps—not waiting for organic product-led growth, but building the GTM muscle, plays, and metrics to make Apps a strategic attach motion.
 
 **2. North Star [Metrics](parking_lot/metrics.md)**
 
@@ -57,62 +57,6 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 **7. Present with [Presentation Structure](presentation_structure.md)** for exec and peer reviews
 
 **8. Review [Parking Lot](parking_lot/)** for future work and integration items
-
----
-
-## Wiki Structure
-
-```mermaid
-flowchart TB
-    subgraph Foundation["1. FOUNDATION"]
-        F1[Mission & Role]
-        F2[Product Context]
-    end
-    
-    subgraph Field["2. FIELD GAPS - Who: Field Ops, Enablement"]
-        FG1[ICP & Targeting]
-        FG2[Positioning]
-        FG3[Sales Plays]
-        FG4[Enablement]
-        FG5[Incentives]
-        FG6[Partners]
-        FG7[Signal Capture]
-    end
-    
-    subgraph Product["3. PRODUCT GAPS - Who: PM, Engineering"]
-        PG1[Use Case Tracking]
-        PG2[Feature Roadmap]
-        PG3[Friction Summary]
-        PG4[Loss Analysis]
-    end
-    
-    subgraph Framework["4. STRATEGIC FRAMEWORK"]
-        SF1[Hypotheses]
-        SF2[Traceability]
-    end
-    
-    subgraph Execution["5. EXECUTION"]
-        E1[Action Plan]
-        E2[Operating Cadence]
-    end
-    
-    subgraph Presentation["6. PRESENTATION"]
-        P1[Slide Deck Structure]
-    end
-    
-    subgraph ParkingLot["7. PARKING LOT"]
-        PL1[Deliverables Gap]
-        PL2[Metrics Framework]
-    end
-    
-    Foundation --> Field
-    Foundation --> Product
-    Field --> Framework
-    Product --> Framework
-    Framework --> Execution
-    Execution --> Presentation
-    Execution -.-> ParkingLot
-```
 
 ---
 
@@ -174,6 +118,62 @@ flowchart TB
 |------|-------------|
 | [Deliverables Gap Analysis](parking_lot/deliverables.md) | Missing deliverables mapped to field/product gaps and phases |
 | [Metrics Framework](parking_lot/metrics.md) | Consolidated metrics, data sources, and dashboard specs |
+
+---
+
+## Wiki Structure
+
+```mermaid
+flowchart TB
+    subgraph Foundation["1. FOUNDATION"]
+        F1[Mission & Role]
+        F2[Product Context]
+    end
+    
+    subgraph Field["2. FIELD GAPS - Who: Field Ops, Enablement"]
+        FG1[ICP & Targeting]
+        FG2[Positioning]
+        FG3[Sales Plays]
+        FG4[Enablement]
+        FG5[Incentives]
+        FG6[Partners]
+        FG7[Signal Capture]
+    end
+    
+    subgraph Product["3. PRODUCT GAPS - Who: PM, Engineering"]
+        PG1[Use Case Tracking]
+        PG2[Feature Roadmap]
+        PG3[Friction Summary]
+        PG4[Loss Analysis]
+    end
+    
+    subgraph Framework["4. STRATEGIC FRAMEWORK"]
+        SF1[Hypotheses]
+        SF2[Traceability]
+    end
+    
+    subgraph Execution["5. EXECUTION"]
+        E1[Action Plan]
+        E2[Operating Cadence]
+    end
+    
+    subgraph Presentation["6. PRESENTATION"]
+        P1[Slide Deck Structure]
+    end
+    
+    subgraph ParkingLot["7. PARKING LOT"]
+        PL1[Deliverables Gap]
+        PL2[Metrics Framework]
+    end
+    
+    Foundation --> Field
+    Foundation --> Product
+    Field --> Framework
+    Product --> Framework
+    Framework --> Execution
+    Execution --> Presentation
+    Execution -.-> ParkingLot
+```
 
 ---
 
