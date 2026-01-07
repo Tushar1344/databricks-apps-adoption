@@ -2,7 +2,7 @@
 
 ## Mission Statement
 
-**Help BU+1s hit product targets by turning customer adoption friction into prioritized cross-functional action and scalable GTM product plays.**
+**Drive deliberate, field-led adoption of Databricks Apps—not waiting for organic product-led growth, but building the GTM muscle, plays, and metrics to make Apps a strategic attach motion.**
 
 ---
 
