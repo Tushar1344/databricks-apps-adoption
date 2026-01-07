@@ -21,6 +21,33 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 
 ## How to Use This Playbook
 
+### The Mission
+
+> Help BU+1s hit product targets by turning customer adoption friction into prioritized cross-functional action and scalable GTM product plays.
+
+### North Star Metrics
+
+| Phase | Metric | Customer Focus |
+|-------|--------|----------------|
+| 3-6 months | Strategic Wins | Quality motion (Enterprise) |
+| 6-9 months | Attach Rates | Both |
+| 12+ months | Coverage | Quantity motion (Digital Native) |
+
+### Key Hypotheses
+
+| ID | Belief | Decision Point |
+|----|--------|----------------|
+| H1 | Apps as Tip of the Spear | Month 6 |
+| H2 | Ecosystem Synergy Is the Moat | Month 9 |
+| H3 | Full-Funnel GTM Gap | Month 3 |
+| H4 | Three Archetypes Drive 80% | Month 6 |
+| H5 | SI Partnerships Counter Palantir | Month 9 |
+| H6 | Metrics Will Align BU Leaders | Month 3 |
+| H7 | Net-New Focus Is Right | Month 6 |
+| H8 | Quality vs Quantity Matters | Month 6 |
+
+### Getting Started
+
 1. **Start with [Mission](01_foundation/01_mission_and_role.md)** to understand our role
 2. **Read [Hypotheses](30_framework/01_hypotheses_and_beliefs.md)** to see core beliefs
 3. **Navigate by owner:**
@@ -147,48 +174,6 @@ flowchart TB
 |------|-------------|
 | [Deliverables Gap Analysis](parking_lot/deliverables.md) | Missing deliverables mapped to field/product gaps and phases |
 | [Metrics Framework](parking_lot/metrics.md) | Consolidated metrics, data sources, and dashboard specs |
-
----
-
-## The Mission
-
-> Help BU+1s hit product targets by turning customer adoption friction into prioritized cross-functional action and scalable GTM product plays.
-
----
-
-## North Star Metrics
-
-| Phase | Metric | Customer Focus |
-|-------|--------|----------------|
-| 3-6 months | Strategic Wins | Quality motion (Enterprise) |
-| 6-9 months | Attach Rates | Both |
-| 12+ months | Coverage | Quantity motion (Digital Native) |
-
----
-
-## Key Hypotheses
-
-| ID | Belief | Decision Point |
-|----|--------|----------------|
-| H1 | Apps as Tip of the Spear | Month 6 |
-| H2 | Ecosystem Synergy Is the Moat | Month 9 |
-| H3 | Full-Funnel GTM Gap | Month 3 |
-| H4 | Three Archetypes Drive 80% | Month 6 |
-| H5 | SI Partnerships Counter Palantir | Month 9 |
-| H6 | Metrics Will Align BU Leaders | Month 3 |
-| H7 | Net-New Focus Is Right | Month 6 |
-| H8 | Quality vs Quantity Matters | Month 6 |
-
----
-
-## Key Differences from Previous Structure
-
-| Old Structure | New Structure | Benefit |
-|---------------|---------------|---------|
-| 12 interconnected docs | 5 clear sections | Easier navigation |
-| Strategic Inputs (420 lines) | Distributed across 10_field/ and 20_product/ | Clear ownership |
-| Implicit ownership | Explicit owners per section | Accountability |
-| Analytical focus | Operational focus | Action-oriented |
 
 ---
 
