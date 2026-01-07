@@ -371,6 +371,216 @@
 
 ---
 
+## Section 5: From Product Adoption Architect Peer
+
+### Interviewer Profile Summary
+
+| Trait | Evidence | How They'll Challenge You |
+|-------|----------|---------------------------|
+| **Product Adoption Architect (current)** | Same role at Databricks | "What's your unique approach? How would you do it differently?" |
+| **CPO at Tamr** | Chief Product Officer experience | "How does Apps fit in the product portfolio strategy?" |
+| **Head of Corporate Strategy (4 yrs)** | Long-term strategic thinking | "What's the 3-year bet? What are the exit criteria?" |
+| **Solutions & Analytics Lead** | Customer value delivery focus | "How do you ensure customers realize value, not just adopt?" |
+| **Product Marketing** | Positioning & messaging expertise | "How do you position vs. alternatives?" |
+| **Enterprise Data Mastering (Tamr)** | Technical depth, large enterprise customers | "How do you handle enterprise complexity?" |
+
+---
+
+### On Product Strategy
+
+### Q22: "How does Apps fit in the broader Databricks product portfolio strategy?"
+
+**Answer:**
+> Apps is the **tip of the spear**—it opens doors for deeper platform adoption:
+> - Apps → Unity Catalog (governance)
+> - Apps → Lakebase (OLTP)
+> - Apps → Model Serving (AI)
+> - Apps → DBSQL (analytics)
+>
+> The H1 hypothesis specifically tests whether Apps drives attach to other SKUs. We measure this via attach rate and influenced ACV.
+>
+> The ecosystem moat (H2) is that Apps + Lakebase + Governance + AI together are differentiated—not Apps standalone.
+
+**Source:** `08_hypotheses_and_beliefs.md` (H1, H2), `10_field/02_positioning_and_messaging.md`
+
+**Gap to Address:** ✅ Strong - well articulated in positioning docs
+
+---
+
+### Q23: "What's the long-term strategic bet here—3 years out?"
+
+**Answer:**
+> **Year 1:** Prove the motion—strategic wins, attach rate baseline, FE enablement
+> **Year 2:** Scale the motion—coverage expansion, SI partnerships, playbook maturity
+> **Year 3:** Platform maturity—compete with hyperscaler app platforms, vertical SaaS on Apps (CDP, Cybersecurity Analytics)
+>
+> The exit criteria at each phase determine whether we continue, pivot, or scale back. If H1 (tip of spear) is invalidated by Month 6, we reposition Apps as standalone value rather than attach driver.
+
+**Source:** `01_foundation/02_product_context.md` (Long-Term Vision), `40_execution/01_action_plan.md`
+
+**Gap to Address:** ⚠️ 3-year vision mentioned but not detailed. Add **multi-year strategic roadmap** to foundation docs.
+
+---
+
+### Q24: "When would you recommend NOT selling Apps?"
+
+**Answer:**
+> Based on the positioning matrix, **don't lead with Apps** when:
+> - **External-facing public apps** - No public URLs, no firewall controls
+> - **High-burst traffic** - Vertical scaling only, can't handle spikes
+> - **Cost-sensitive variable workloads** - Fixed 24x7 pricing hurts
+> - **GPU inference** - Must use Model Serving instead
+> - **Branded customer portals** - No custom domains yet
+>
+> The honest positioning principle: "Win where we're strong; defer where we're not ready."
+
+**Source:** `10_field/02_positioning_and_messaging.md` - "Where We Wait" table
+
+**Gap to Address:** ✅ Strong - positioning matrix is explicit about when NOT to sell
+
+---
+
+### On Customer Value
+
+### Q25: "How do you ensure customers realize value, not just adopt the feature?"
+
+**Answer:**
+> Three mechanisms:
+> 1. **Strategic win narratives** - Every win documented with business value, not just deployment
+> 2. **Quality motion** - PS engagement for enterprise customers ensures deep value delivery
+> 3. **Retention tracking** - H8 tests whether motion-matched accounts have better retention
+>
+> Adoption without value shows up in churn. We track retention by segment and motion type to catch this early.
+
+**Source:** `40_execution/01_action_plan.md` (KR definitions), `08_hypotheses_and_beliefs.md` (H8)
+
+**Gap to Address:** ⚠️ Business value documentation template not formalized. Add **Value Realization Framework**.
+
+---
+
+### Q26: "What's your approach to measuring business outcomes vs. feature usage?"
+
+**Answer:**
+> Metrics pyramid separates these:
+> - **Leading (usage):** Apps created, active developers, FE conversations
+> - **Lagging (outcomes):** Strategic wins, attach rate, influenced ACV, retention
+>
+> The "strategic win" definition requires documented business value—not just "customer deployed an app."
+>
+> Win narratives must answer: What business problem solved? What's the measurable impact?
+
+**Source:** `parking_lot/metrics.md` - Leading vs Lagging section
+
+**Gap to Address:** ⚠️ Influenced ACV not yet calculated. Priority action: Finance alignment on methodology.
+
+---
+
+### Q27: "How do you handle enterprise customers with complex governance requirements?"
+
+**Answer:**
+> This is actually where we **win**:
+> - **Unity Catalog** provides end-to-end governance, observability, credential passthrough
+> - **Security patterns** training for regulated verticals (HLS, FSI) is Month 2 priority
+> - **Internal apps** with Databricks auth are our sweet spot
+>
+> The gap is external-facing apps for regulated industries—no ingress/egress controls yet. We position for internal use cases until product matures.
+
+**Source:** `10_field/02_positioning_and_messaging.md` - Moat pillars, Positioning matrix
+
+**Gap to Address:** ✅ Strong - governance is a differentiator, not a gap (for internal apps)
+
+---
+
+### On Role Vision
+
+### Q28: "What's your vision for how the Adoption Architect function should evolve?"
+
+**Answer:**
+> **Phase 1 (Now):** AA as hypothesis validator—prove the motion works, capture signal, influence PM
+> **Phase 2 (Mature):** AA as playbook owner—repeatable plays executed by field, AA focuses on edge cases
+> **Phase 3 (Scaled):** AA as strategic advisor—product strategy input, cross-BU coordination, new product launches
+>
+> The goal is to make the playbooks so good that AA isn't needed for routine adoption—freeing capacity for strategic work.
+
+**Source:** Implied in `01_foundation/01_mission_and_role.md`
+
+**Gap to Address:** 🔴 AA role evolution not documented. Add **AA Maturity Model** to foundation docs.
+
+---
+
+### Q29: "How do you see AA working with PM vs. being an extension of PM?"
+
+**Answer:**
+> AA is the **bridge**, not an extension:
+> - **PM owns:** Product roadmap, feature prioritization, technical decisions
+> - **AA owns:** Field signal aggregation, adoption playbooks, GTM execution
+> - **Shared:** Loss analysis, hypothesis validation, customer feedback
+>
+> The operating cadence has explicit PM touchpoints:
+> - Weekly council with PM feedback queue
+> - Quarterly PM feedback synthesis
+> - Joint ownership of top blockers
+>
+> AA amplifies field voice to PM; PM informs AA on what's possible and when.
+
+**Source:** `40_execution/02_operating_cadence.md`, `10_field/07_signal_capture.md`
+
+**Gap to Address:** ✅ Strong - clear delineation in operating cadence
+
+---
+
+### Q30: "What would you do differently than how adoption is being driven today?"
+
+**Answer:**
+> Based on the playbook analysis:
+> 1. **Hypothesis-driven:** Test beliefs explicitly, pivot when invalidated—not "hope it works"
+> 2. **Motion-matched:** Different approaches for enterprise (quality) vs. digital native (quantity)
+> 3. **Full-funnel:** Enable FEs at every stage (identify → qualify → position → close), not just awareness
+> 4. **Measured:** Attach rate, influenced ACV, retention—not just "apps deployed"
+> 5. **Honest positioning:** Know where NOT to sell, not just where to sell
+>
+> The 14x organic growth happened without strategy. Deliberate motion can accelerate and sustain it.
+
+**Source:** Mission statement, `08_hypotheses_and_beliefs.md`, `10_field/02_positioning_and_messaging.md`
+
+**Gap to Address:** ✅ Strong - this is the core thesis of the playbook
+
+---
+
+### On Competitive/Positioning
+
+### Q31: "How do you position Apps vs. customers building their own with Streamlit/Gradio?"
+
+**Answer:**
+> Three arguments:
+> 1. **Governance built-in:** Unity Catalog provides credential passthrough, observability, audit trails that DIY doesn't have
+> 2. **Data proximity:** Apps run where data lives—no data movement, no latency, no security exposure
+> 3. **Managed infrastructure:** No container orchestration, no scaling config, no ops burden
+>
+> The counter-positioning: If customer just needs a simple prototype, Streamlit is fine. When they need production-grade, governed, scalable—that's when Apps wins.
+
+**Source:** `10_field/02_positioning_and_messaging.md` - Core Differentiators
+
+**Gap to Address:** ⚠️ Competitive talk track exists but needs **head-to-head comparison cards** for FE use.
+
+---
+
+### Q32: "What's the 'why now' for Apps—why is this the moment to invest?"
+
+**Answer:**
+> Three signals:
+> 1. **14x organic growth** ($5M → $70M) - Market demand validated without GTM investment
+> 2. **Platform synergies maturing** - Lakebase + Unity Catalog + Model Serving create the moat
+> 3. **Competitive window** - Hyperscalers don't have the data platform integration; ISVs don't have the compute
+>
+> If we don't build the GTM muscle now, organic growth will plateau and we'll cede the opportunity to point solutions.
+
+**Source:** `01_foundation/02_product_context.md` - Revenue growth, `10_field/02_positioning_and_messaging.md`
+
+**Gap to Address:** ✅ Strong - "why now" is compelling based on growth data
+
+---
+
 ## Summary: Preparation Checklist
 
 ### ✅ Strong Areas (Confident to Answer)
@@ -391,6 +601,9 @@
 | No escalation ladder | Add escalation matrix with SLAs | Medium |
 | Metrics dispersed | Create consolidated dashboard | Medium |
 | No DoD for sales plays | Define completion criteria | Medium |
+| AA role evolution unclear | Add AA Maturity Model | Medium |
+| 3-year vision light | Add multi-year strategic roadmap | Low |
+| Value realization undefined | Add Value Realization Framework | Low |
 
 ### 📝 Rehearsal Focus
 
@@ -399,6 +612,9 @@
 3. **Demonstrate data awareness:** Know which metrics exist vs. need instrumentation
 4. **Show process thinking:** Operating cadence, feedback loops, escalation
 5. **Own the gaps:** "We've identified X gaps and have a plan to address them"
+6. **Articulate the "why now":** 14x organic growth + platform synergies + competitive window
+7. **Know when NOT to sell:** Positioning matrix, honest limitations
+8. **Differentiate AA from PM:** Bridge role, field voice amplifier
 
 ---
 
