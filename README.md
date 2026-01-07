@@ -21,7 +21,7 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 
 ## How to Use This Playbook
 
-1. **Start with [Mission](01_foundation/01_mission_and_role.md)** to understand the role
+1. **Start with [Mission](01_foundation/01_mission_and_role.md)** to understand our role
 2. **Read [Hypotheses](30_framework/01_hypotheses_and_beliefs.md)** to see core beliefs
 3. **Navigate by owner:**
    - **Field issues?** → [10_field/](10_field/)
