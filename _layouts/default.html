@@ -44,12 +44,29 @@ layout: none
       .tab-content.active {
         display: block;
       }
+      /* Ensure mermaid renders before hiding */
+      .tab-content.render-first {
+        display: block;
+        position: absolute;
+        visibility: hidden;
+      }
     </style>
     <!-- Mermaid JS for diagram rendering -->
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
       
-      document.addEventListener('DOMContentLoaded', function() {
+      // Make mermaid available globally for tab switching
+      window.mermaidLib = mermaid;
+      
+      document.addEventListener('DOMContentLoaded', async function() {
+        // Temporarily show all tabs for mermaid to render
+        const tabContents = document.querySelectorAll('.tab-content');
+        tabContents.forEach(tab => {
+          if (!tab.classList.contains('active')) {
+            tab.classList.add('render-first');
+          }
+        });
+        
         const codeBlocks = document.querySelectorAll('pre code.language-mermaid');
         
         codeBlocks.forEach((codeBlock, index) => {
@@ -68,7 +85,15 @@ layout: none
           theme: 'neutral',
           flowchart: { useMaxWidth: true, htmlLabels: true }
         });
-        mermaid.run();
+        
+        await mermaid.run();
+        
+        // Hide tabs again after mermaid renders
+        setTimeout(() => {
+          tabContents.forEach(tab => {
+            tab.classList.remove('render-first');
+          });
+        }, 100);
       });
     </script>
     <script>
