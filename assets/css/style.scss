@@ -1,0 +1,46 @@
+---
+---
+
+@import "jekyll-theme-architect";
+
+/* Override Architect theme fonts */
+
+/* Import a professional font - options below, uncomment your preference */
+
+/* Option 1: Inter (modern, clean) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+$custom-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+/* Option 2: Source Sans Pro (professional)
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+$custom-font: 'Source Sans Pro', sans-serif;
+*/
+
+/* Option 3: DM Sans (friendly, geometric)
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+$custom-font: 'DM Sans', sans-serif;
+*/
+
+/* Apply to headers */
+header h1, header h2 {
+  font-family: $custom-font;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* Apply to body text */
+body {
+  font-family: $custom-font;
+}
+
+/* Apply to all headings in content */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $custom-font;
+  font-weight: 600;
+}
+
+/* Code blocks keep monospace */
+code, pre {
+  font-family: 'SF Mono', 'Menlo', 'Monaco', 'Courier New', monospace;
+}
+
