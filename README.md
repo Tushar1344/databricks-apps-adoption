@@ -197,6 +197,44 @@ Adoption Architect, Databricks
 
 ---
 
+### Career Journey
+
+**Prior to Databricks:** Big Data roles at Ameriprise, FINRA, Optum, Walgreens, and Atos
+
+**At Databricks (2019–Present):**
+
+| Period | Role |
+|--------|------|
+| 2019–2021 | Solutions Architect, NY |
+| 2021–2022 | FE Leader, NY Core Team |
+| 2022–2024 | FE Leader, Retail North East |
+| 2024–Present | RCT Hunting Lead — National team with 3 sub-BUs, 16 SAs, 1 FLM |
+
+---
+
+### Why I'm a Good Fit for This Role
+
+**1. Recovering Data Scientist** 🔬  
+Building hypotheses, finding data, and validating them comes naturally to me.  
+→ [Milestone Analysis across RCT Products](https://docs.google.com/spreadsheets/d/19ihrfgv2TirYY04h3YDDGGR1dONhuWHKNvkcTdlCkmA/edit?gid=248111445#gid=248111445)
+
+**2. Processes Become Institutions** 🏛️  
+Created the Practice Lead motion within RCT—processes that outlast people.  
+→ [Practice Lead Org Design](https://docs.google.com/document/d/1QVYFzaMA5OaNbPAVSzV_xGKXIpD8PR2qZwzEjYm24jU/edit?tab=t.0#heading=h.rltclwhjjjno)
+
+**3. Passionate About Apps as GTM Centerpiece** 🚀  
+- [Internal Memo: Lead with Data Products](https://docs.google.com/document/d/1mGWueYX0uiJDKBE5av_4wdRFNuokSrT7oNbSxd-bbcE/edit?tab=t.0#heading=h.c7helxcinaeo)
+- [Peet's Coffee: App-Based GTM Win](https://drive.google.com/file/d/1EclOdU6vePXFhT_kGumd6E50vlvItGSQ/view?usp=sharing)
+- Partnered with App-Focused SIs: [Viveka.ai (Suji Nair)](https://www.linkedin.com/in/sujinair/) — reported to Shanku
+- [Month of Apps Launch (RCT)](https://month-of-apps-kickoff.netlify.app/)
+- [Papa Johns Demo](https://drive.google.com/file/d/1NDO22SGoeRvKShfhlUiWT_1vdjDXexk7/view?usp=sharing) — inspired by Domino's Voice of Pizza win
+
+**4. Love Working with Product & Diving Deep** 🔧  
+Roll up sleeves when needed.  
+→ [NPD DBSQL Deep Dive](https://docs.google.com/document/d/1EMPdoZXW40oclR-kq3dEX-d_cjP4q-RACV8fYPOt_S8/edit?tab=t.0) (worked with Shant)
+
+---
+
 ### If you're wondering what avianna.ai is...
 
 It's my daughter's first name: **Avianna Ishari Madan** (AI Madan) 💛
