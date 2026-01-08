@@ -192,18 +192,40 @@ flowchart LR
     V --> |"If Invalidated"| Pivot["Pivot strategy"]
 ```
 
-### 8 Hypotheses Summary
+### 3 Core Bets (Funnel Stages)
 
-| ID | Belief | Decision Point | If Validated | If Invalidated |
-|----|--------|----------------|--------------|----------------|
-| **H1** | Apps as Tip of the Spear | Month 6 | Emphasize attach narrative | Reposition as standalone |
-| **H2** | Ecosystem Synergy Is the Moat | Month 9 | Double down on ecosystem | Compete on features |
-| **H3** | Full-Funnel GTM Gap | Month 3 | Scale enablement | Investigate product blockers |
-| **H4** | Three Archetypes Drive 80% | Month 6 | Scale archetype playbooks | Refine archetypes |
-| **H5** | SI Partnerships Counter Palantir | Month 9 | Scale SI program | Build internal FDE |
-| **H6** | Metrics Will Align BU Leaders | Month 3 | Operationalize tracking | Revise metrics |
-| **H7** | Net-New Focus Is Right | Month 6 | Maintain focus | Reconsider migration |
-| **H8** | Quality vs Quantity Matters | Month 6 | Scale motion playbooks | Unified approach |
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                         3 CORE BETS                             │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   WHY APPS?              WHERE TO PLAY?        HOW TO WIN?      │
+│   ───────────            ──────────────        ───────────      │
+│                                                                 │
+│   Apps drive platform    Archetype-matched,    Full-funnel      │
+│   expansion via          net-new, motion-      enablement +     │
+│   ecosystem moat         aware targeting       SI + metrics     │
+│                                                                 │
+│   Combines:              Combines:             Combines:        │
+│   • H1: Tip of Spear     • H4: 3 Archetypes    • H3: FE Gap     │
+│   • H2: Ecosystem Moat   • H7: Net-New Focus   • H5: SI Motion  │
+│                          • H8: Quality/Qty     • H6: BU Metrics │
+│                                                                 │
+│   Tests:                 Tests:                Tests:           │
+│   • Attach rate          • 80% fit archetypes  • FE confidence  │
+│   • Ecosystem retention  • Net-new win rate    • SI time-value  │
+│   • Competitive wins     • Motion-retention    • BU buy-in      │
+│                                                                 │
+│   Decision: M6           Decision: M6          Decision: M3, M9 │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+| Bet | Core Belief | If Validated | If Invalidated |
+|-----|-------------|--------------|----------------|
+| **WHY Apps?** | Apps drive platform expansion via ecosystem moat | Emphasize attach + moat narrative | Reposition as standalone product |
+| **WHERE to Play?** | Archetype-matched, net-new, motion-aware targeting | Scale playbooks by archetype + motion | Simplify to unified approach |
+| **HOW to Win?** | Full-funnel enablement + SI leverage + metrics alignment | Scale enablement + SI program | Investigate product blockers |
 
 ### Metrics Pyramid
 
@@ -455,22 +477,22 @@ gantt
     Full coverage            :milestone, p3m, 2026-12, 1d
 ```
 
-### Hypothesis-Action Connection
+### Core Bets by Phase
 
-| Phase | Primary Hypotheses | Decision Point | Key Question |
-|-------|-------------------|----------------|--------------|
-| **P1 (M1-3)** | H3, H6, H8 | Month 3 | Enablement working? BU buy-in? |
-| **P2 (M4-6)** | H1, H4, H7, H8 | Month 6 | Attach improving? Archetypes hold? |
-| **P3 (M7-12)** | H2, H5 | Month 9 | Moat real? SI working? |
+| Phase | Primary Bet | Decision Point | Key Question |
+|-------|-------------|----------------|--------------|
+| **P1 (M1-3)** | HOW to Win? | Month 3 | Enablement working? BU buy-in? |
+| **P2 (M4-6)** | WHY Apps? + WHERE to Play? | Month 6 | Attach improving? Archetypes hold? |
+| **P3 (M7-12)** | WHY Apps? + HOW to Win? | Month 9 | Moat real? SI working? |
 
 ### If Validated / If Invalidated
 
-| Hypothesis | If Validated | If Invalidated |
-|------------|--------------|----------------|
-| H3 (FE Enablement) | Scale to all verticals | Investigate product blockers |
-| H6 (Metrics Align) | Operationalize tracking | Revise metric definitions |
-| H1 (Tip of Spear) | Emphasize attach narrative | Reposition as standalone |
-| H8 (Motions) | Scale motion playbooks | Investigate unified approach |
+| Bet | If Validated | If Invalidated |
+|-----|--------------|----------------|
+| **HOW to Win?** (M3) | Scale enablement to all verticals | Investigate product blockers, not FE gap |
+| **WHERE to Play?** (M6) | Scale archetype + motion playbooks | Simplify to unified approach |
+| **WHY Apps?** (M6) | Emphasize attach + moat narrative | Reposition as standalone product |
+| **HOW to Win?** (M9) | Scale SI program globally | Build internal FDE capacity |
 
 ---
 
@@ -506,13 +528,16 @@ gantt
 | **M2** | Security patterns training, App discovery workshop, Competitive talk tracks, PS engagement | AA + Enablement |
 | **M3** | Strategic wins documented, FE survey post, Exec readout, Quality motion playbook | AA + FE |
 
-### Phase 1 Hypothesis Decisions (Month 3)
+### Phase 1 Bet Decision: HOW to Win? (Month 3)
 
-| Hypothesis | Decision Criteria | Owner |
-|------------|-------------------|-------|
-| **H3** | FE confidence improved ≥20% | AA + Enablement |
-| **H6** | 3+ BU leaders accept metrics | AA + Finance |
-| **H8** | PS-engaged accounts show higher retention | AA + Analytics |
+| Test | Decision Criteria | Owner |
+|------|-------------------|-------|
+| **FE Enablement** | FE confidence improved ≥20% | AA + Enablement |
+| **BU Metrics Alignment** | 3+ BU leaders accept metrics framework | AA + Finance |
+| **Motion Matching** | PS-engaged accounts show higher retention | AA + Analytics |
+
+**If Validated:** Scale enablement to all verticals, operationalize metrics  
+**If Invalidated:** Investigate product blockers (not just FE gap)
 
 ---
 
@@ -548,14 +573,17 @@ gantt
 | **M5** | Business Cockpit playbook, Deep Vertical playbook, Regional rollout |
 | **M6** | Playbook v1 published, Attach rate baseline, Motion playbooks |
 
-### Phase 2 Hypothesis Decisions (Month 6)
+### Phase 2 Bet Decisions: WHY Apps? + WHERE to Play? (Month 6)
 
-| Hypothesis | Decision Criteria |
-|------------|-------------------|
-| **H1** | Attach rate measurable and positive |
-| **H4** | 80%+ wins fit 3 archetypes |
-| **H7** | Net-new win rate > migration |
-| **H8** | Motion-matched accounts better retention |
+| Bet | Test | Decision Criteria |
+|-----|------|-------------------|
+| **WHY Apps?** | Attach Rate | Attach rate measurable and positive |
+| **WHERE to Play?** | Archetypes | 80%+ wins fit 3 archetypes |
+| **WHERE to Play?** | Net-New Focus | Net-new win rate > migration |
+| **WHERE to Play?** | Motions | Motion-matched accounts show better retention |
+
+**If Validated:** Scale archetype playbooks, emphasize attach narrative  
+**If Invalidated:** Simplify to unified approach, reposition as standalone
 
 ---
 
@@ -591,12 +619,15 @@ gantt
 | **M10-11** | Playbook v2, SI pilot retrospective, Coverage milestone (50) |
 | **M12** | FY27 plan draft, Annual retrospective |
 
-### Phase 3 Hypothesis Decisions (Month 9)
+### Phase 3 Bet Decisions: WHY Apps? + HOW to Win? (Month 9)
 
-| Hypothesis | Decision Criteria |
-|------------|-------------------|
-| **H2** | Win rate vs hyperscalers improving |
-| **H5** | SI time-to-value ≤ internal |
+| Bet | Test | Decision Criteria |
+|-----|------|-------------------|
+| **WHY Apps?** | Ecosystem Moat | Win rate vs hyperscalers improving |
+| **HOW to Win?** | SI Leverage | SI time-to-value ≤ internal delivery |
+
+**If Validated:** Scale SI program globally, double down on ecosystem narrative  
+**If Invalidated:** Build internal FDE capacity, compete on features
 
 ---
 
