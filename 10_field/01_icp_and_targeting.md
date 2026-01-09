@@ -87,6 +87,44 @@ flowchart LR
 
 ---
 
+## Lighthouse Account Scoring Rubric
+
+### Scoring Table
+
+| Signal | Metric | Threshold | Points | Data Source |
+|--------|--------|-----------|--------|-------------|
+| **Platform Adoption** | ARR | >$500K | 3 | SFDC |
+| **Data Gravity** | Delta storage | >10 TB | 2 | Product Telemetry |
+| **Unity Catalog** | Tables registered | >100 | 2 | Product Telemetry |
+| **UC Governance** | Policies active | >5 | 1 | Product Telemetry |
+| **AI Maturity** | MLflow models | >5 | 2 | Product Telemetry |
+| **Model Serving** | Endpoints active | ≥1 | 1 | Product Telemetry |
+| **Business Users** | SQL Warehouse DAU | >50 | 2 | Product Telemetry |
+| **Executive Sponsor** | Contact level | VP+ | 2 | SFDC |
+| **Strategic Flag** | Strat Hunter | Yes | 2 | SFDC |
+| **Partner Ecosystem** | SI/ISV engaged | Yes | 1 | Partner Tracker |
+
+**Total Possible:** 18 points
+
+### Selection Thresholds
+
+| Score | Classification | Action |
+|-------|----------------|--------|
+| ≥12 | **Tier 1 Lighthouse** | Prioritize for P1 strategic wins |
+| 8-11 | **Tier 2 Lighthouse** | Include in extended list |
+| 5-7 | **Pipeline** | Monitor, nurture |
+| <5 | **Not Ready** | Defer until signals improve |
+
+### Archetype-Specific Scoring Adjustments
+
+| Archetype | Bonus Signals | Extra Points |
+|-----------|---------------|--------------|
+| **Cockpit** | Dashboard viewers >100 | +2 |
+| **Vertical** | Domain-specific jobs detected | +2 |
+| **Horizontal** | Notebook authors <10 (small team) | +1 |
+
+---
+
 ## App Archetype Targeting
 
 | Archetype | Target Signal | Customer Profile | Priority |
