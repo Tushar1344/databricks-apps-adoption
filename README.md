@@ -3,7 +3,7 @@
 <div class="tab-container">
 <div class="tab-buttons">
   <button class="tab-btn active" data-tab="tab-start">Start Here</button>
-  <button class="tab-btn" data-tab="tab-nav">Quick Nav</button>
+  <button class="tab-btn" data-tab="tab-nav">Table of Contents</button>
   <button class="tab-btn" data-tab="tab-about">About Me</button>
 </div>
 
@@ -12,6 +12,24 @@
 ## What is this?
 
 A structured playbook for driving adoption of Databricks Apps, organized by **Field Gaps** vs **Product Gaps**.
+
+**[Mission](01_foundation/01_mission_and_role.md):** Drive deliberate, field-led adoption of Databricks Apps—not waiting for organic product-led growth, but building the GTM muscle, plays, and metrics to make Apps a strategic attach motion.
+
+**North Star [Metrics](parking_lot/metrics.md):**
+
+| Phase | Metric | Customer Focus |
+|-------|--------|----------------|
+| 3-6 months | Strategic Wins | Quality motion (Enterprise) |
+| 6-9 months | Attach Rates | Both |
+| 12+ months | Coverage | Quantity motion (Digital Native) |
+
+**3 Core Bets ([Hypotheses](30_framework/01_hypotheses_and_beliefs.md)):**
+
+| Bet | Belief | Decision Point |
+|-----|--------|----------------|
+| **WHY Apps?** | Apps drive platform expansion via ecosystem moat | M6 |
+| **WHERE to Play?** | Archetype-matched, net-new, motion-aware targeting | M6 |
+| **HOW to Win?** | Full-funnel enablement + SI leverage + metrics | M3, M9 |
 
 ---
 
@@ -28,48 +46,18 @@ A structured playbook for driving adoption of Databricks Apps, organized by **Fi
 
 ## How to Use This Playbook
 
-**1. The [Mission](01_foundation/01_mission_and_role.md)**
-
-> Drive deliberate, field-led adoption of Databricks Apps—not waiting for organic product-led growth, but building the GTM muscle, plays, and metrics to make Apps a strategic attach motion.
-
-**2. North Star [Metrics](parking_lot/metrics.md)**
-
-| Phase | Metric | Customer Focus |
-|-------|--------|----------------|
-| 3-6 months | Strategic Wins | Quality motion (Enterprise) |
-| 6-9 months | Attach Rates | Both |
-| 12+ months | Coverage | Quantity motion (Digital Native) |
-
-**3. Key [Hypotheses](30_framework/01_hypotheses_and_beliefs.md)**
-
-| ID | Belief | Decision Point |
-|----|--------|----------------|
-| H1 | Apps as Tip of the Spear | Month 6 |
-| H2 | Ecosystem Synergy Is the Moat | Month 9 |
-| H3 | Full-Funnel GTM Gap | Month 3 |
-| H4 | Three Archetypes Drive 80% | Month 6 |
-| H5 | SI Partnerships Counter Palantir | Month 9 |
-| H6 | Metrics Will Align BU Leaders | Month 3 |
-| H7 | Net-New Focus Is Right | Month 6 |
-| H8 | Quality vs Quantity Matters | Month 6 |
-
-**4. Navigate by owner:**
-   - **Field issues?** → [10_field/](10_field/)
-   - **Product issues?** → [20_product/](20_product/)
-
-**5. Execute from [Action Plan](40_execution/01_action_plan.md)** week by week
-
-**6. Track validation in [Traceability](30_framework/02_traceability_matrix.md)** at decision points
-
-**7. Present with [Presentation Structure](presentation_structure.md)** for exec and peer reviews
-
-**8. Review [Parking Lot](parking_lot/)** for future work and integration items
+1. **Field issues?** → [10_field/](10_field/)
+2. **Product issues?** → [20_product/](20_product/)
+3. **Execute** from [Action Plan](40_execution/01_action_plan.md) week by week
+4. **Track** validation in [Traceability](30_framework/02_traceability_matrix.md) at decision points
+5. **Present** with [Presentation Deck](presentation_deck_v3.md) for exec and peer reviews
+6. **Future work** in [Parking Lot](parking_lot/)
 
 </div>
 
 <div id="tab-nav" class="tab-content" markdown="1">
 
-## Quick Navigation
+## Table of Contents
 
 ### 1. Foundation
 
