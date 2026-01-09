@@ -182,7 +182,7 @@ flowchart TB
 ### Author
 
 **Tushar Madan**  
-Aspiring Adoption Architect, Databricks
+Sr Manager Field Engineering (RCT New Logos Business)
 
 ---
 
