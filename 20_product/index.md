@@ -12,6 +12,7 @@ Documents addressing product-side adoption gaps.
 | [Feature Adoption Roadmap](02_feature_adoption_roadmap.md) | PM | DBUs, CSAT, adoption metrics |
 | [Friction Summary](03_friction_summary.md) | PM | Product gaps, workarounds |
 | [Loss Analysis](04_loss_analysis.md) | AA | Deal losses, competitive intel |
+| [Deployment Friction Analysis](05_deployment_friction.md) | PM | Port configuration, error messages, UX improvements |
 
 ---
 
